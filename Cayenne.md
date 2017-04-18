@@ -31,6 +31,6 @@ You need to click on *** Cayenne API ***, this API will use the MQTT protocole a
 char username[] = "71996a50-25fe-11e7-b2af-55ba5adcb0d5"; // MQTT Username
 char password[] = "d49b8e538c18beb1f39c622ea14c713486d6d6f5"; // MQTT Password.
 char clientID[] = "758bb320-25fe-11e7-bc7d-0921ad51511b"; // Client ID.
-```.
+```
 
 
