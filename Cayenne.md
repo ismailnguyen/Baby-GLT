@@ -25,6 +25,7 @@ You need to Click on <b>Include Library</b> after click on <b>Add .ZIP library</
 And add the zip content.
 </pre>
 
+
 3. Inside the Cayenne website.
 You need to click on *** Cayenne API ***, this API will use the MQTT protocole and you need to change the codes like this exemple : 
 ``` C
@@ -33,4 +34,5 @@ char password[] = "d49b8e538c18beb1f39c622ea14c713486d6d6f5"; // MQTT Password.
 char clientID[] = "758bb320-25fe-11e7-bc7d-0921ad51511b"; // Client ID.
 ```
 
-
+4. You need to compile [this program](ESP8266-Projet.ino)
+After on the Cayenne Webiste you need to see your board.
