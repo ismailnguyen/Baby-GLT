@@ -5,6 +5,17 @@
 3. Configure this program on your Arduino IDE.
 
 ## For install the Arduino IDE.
-Go to this [webSite](https://www.arduino.cc/en/main/Ssoftware).
+Go to this [webSite](https://www.arduino.cc/en/main/Ssoftware) for install the IDE (you need to choose your platform).
+
+### Register in Cayenne Website.
+You need to register in [Cayenne website](https://cayenne.mydevices.com).
+
+#### You need to change the SSID (box name) and this password.
+1. Download this Program and change the ssid and the password [here](ESP8266-Projet.ino).
+``` C
+char ssid[] = "your ssid";
+char wifiPassword[] = "your password";
+```
+ 
 
 
