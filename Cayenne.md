@@ -21,7 +21,7 @@ char wifiPassword[] = "your password";
 You need to download the zip content of this [github project](https://github.com/myDevicesIoT/Cayenne-MQTT-ESP8266).
 After you need to load the zip file into your Arduino IDE.
 ```
-You need to Click on ***Include Library*** after click on *** Add .ZIP library ***.
+You need to Click on ***Include Library*** after click on ***Add .ZIP library***.
 And add the zip content
 
 ```
