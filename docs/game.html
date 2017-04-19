@@ -4,22 +4,6 @@
 <title> Baby Line Foot Game</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
 </script>
-<script>
-$(document).ready(function(){
-	$( "#new_game" ).on( "click", function( event ) {
-	  $('#form_joueur').show();
-	  $('#start_game').show();
-	  $('#score').show();
-	});
-	
-	$( "#start_game" ).on( "click", function( event ) {
-		var j1 = $('#p1').val();
-		var j2 = $('#p2').val();
-		$('.scoreJa').text(j1);
-		$('.scoreJb').text(j2);
-	});
-});
-</script>
 </head>
 <style media="screen" type="text/css">
 
@@ -80,9 +64,7 @@ table{
 }
 </style>
 <h1><center> Foosball Game</center></h1>
-<input type="button" id="new_game" value="Nouvelle partie"></input>
-<center><input type="button" id="start_game" value="Demarrer" style="display:none"></input><center>
-<div id="score" style="display:none">
+<div id="score">
 <iframe width="430" height="280" frameborder="0" src="https://app.ubidots.com/ubi/getchart/EzwcUd54rFU-nsjGwJDEwcWexMw" style="margin-right: 450px;"></iframe>
 <iframe width="430" height="280" frameborder="0" src="https://app.ubidots.com/ubi/getchart/atXABy7O7OfxgWXjeKSzoGCP4AE"></iframe></div>
 </body> 

@@ -4,8 +4,8 @@
 	This part is for add the credentials access for communicate with ubidots board.
 */
 #define TOKEN  "fL7bB5nkQJ2NAkZNoaiy3U3Kz2H16V"  // Put here your Ubidots TOKEN
-#define ID_1 "58f8b3af7625423887675651"
-#define ID_2 "58f9c22076254238893ef4c8"// Put your variable ID here
+#define ID_1 "58f8b3af7625423887675651"// Put your variable ID1 here
+#define ID_2 "58f9c22076254238893ef4c8"// Put your variable ID2 here
 /*
 	This part you need to add the network credentials.
 */
@@ -14,13 +14,13 @@
 
 Ubidots client(TOKEN);
 
-const int L1 = D4; // broche 2 du micro-contrôleur se nomme maintenant : L1
+const int L1 = D4; // D4 micro-contrôleur named now : L1
 int scoreJ1 = 0;
 
 // the setup routine runs once when you press reset:
 void setup() {
   pinMode(L1, OUTPUT); //L1 est une broche de sortie
-  pinMode(D3, OUTPUT);
+  pinMode(D3, OUTPUT); //D1 est une broche de sortie
   digitalWrite(D3, 0);
   // initialize serial communication at 115200 bits per second:
   Serial.begin(115200);
@@ -48,11 +48,11 @@ void loop() {
       scoreJ1++;
     }
       printf("score du joueur 1 : %d \n", scoreJ1);
-      digitalWrite(L1, HIGH); //allumer L1
-      delay(5000); // attendre 1 milliseconde
-      digitalWrite(L1, LOW); // Eteindre 
+      digitalWrite(L1, HIGH); // Turn on led
+      delay(5000); // wait 5 second
+      digitalWrite(L1, LOW); // Turn off led 
       client.add(ID_1, static_cast<float>(scoreJ1));
       client.sendAll(false);
-      delay(2000);
+      delay(2000); // wait 2 second
   }
 }
