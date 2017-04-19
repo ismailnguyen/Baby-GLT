@@ -52,5 +52,5 @@ You can found an other environment is Cayenne.
 ##### Installation on table soccer : 
 We have install the componenent in each part of the goal inside the table soccer like this schema.
 
-![tablesoccer](..img/Tbs.png)
+![tablesoccer](../img/Tbs.png)
 
