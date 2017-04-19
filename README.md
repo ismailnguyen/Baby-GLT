@@ -28,7 +28,7 @@ We have connect the componants like this :
 
 
 #### Firmware : 
-We used this [program](img/babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
+We used this [program](babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
 
 ***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the library for communicate with ubidots and add to the arduino Library.***
 
