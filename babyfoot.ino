@@ -1,9 +1,14 @@
 #include "UbidotsMicroESP8266.h"
 
+/*
+	This part is for add the credentials access for communicate with ubidots board.
+*/
 #define TOKEN  "fL7bB5nkQJ2NAkZNoaiy3U3Kz2H16V"  // Put here your Ubidots TOKEN
 #define ID_1 "58f8b3af7625423887675651"
 #define ID_2 "58f9c22076254238893ef4c8"// Put your variable ID here
-//#define ID_2 "Your_variable_ID_here" // Put your variable ID here
+/*
+	This part you need to add the network credentials.
+*/
 #define WIFISSID "ESGI" // Put here your Wi-Fi SSID
 #define PASSWORD "Reseau-GES" // Put here your Wi-Fi password
 
@@ -25,6 +30,9 @@ void setup() {
 }
 
 // the loop routine runs over and over again forever:
+/*
+	This function is calculate the score goal.
+*/
 void loop() {
   // read the input on analog pin 0:
   int sensorValue = analogRead(A0);
@@ -47,11 +55,4 @@ void loop() {
       client.sendAll(false);
       delay(2000);
   }
-  /*****Gestion bouton******/
-  /*int sensorVal = digitalWrite(D3, 0);
-   if (sensorVal == HIGH) {
-    //Serial.println(78);
-  } else {
-    Serial.println("recommencer");
-  }*/
 }
