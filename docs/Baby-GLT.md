@@ -13,6 +13,8 @@ For display the score we used ubidots.
 ### Firmware : 
 We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
 
+***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the zip file and add to the arduino Library.***
+
 You need to add the credentials access to the board.
 ``` C
 #define TOKEN  "fL7bB5nkQJ2NAkZNoaiy3U3Kz2H16V"  // Put here your Ubidots TOKEN
