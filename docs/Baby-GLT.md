@@ -13,6 +13,10 @@ Each people have an organisation like this :
 
 ### Hardware.
 
+we used this componants :
+![hardware](../img/Fritzing.png)
+ 
+
 
 #### Firmware : 
 We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
