@@ -12,16 +12,17 @@ Each people have an organisation like this :
 ![planning](../img/pics.png) 
 
 ### Hardware.
-
+We use an ESP8266 : 
+![ESP8266](../img/ESP8266.jpg)
 we used this componants :
 ![hardware](../img/Fritzing.png)
  
-
+We have use a LED ,Laser and a sensor for detect the laser light.
 
 #### Firmware : 
 We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
 
-***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the zip file and add to the arduino Library.***
+***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the library for communicate with ubidots and add to the arduino Library.***
 
 You need to add the credentials access to the board.
 ``` C
@@ -37,6 +38,7 @@ You need to configure with your wifi access.
 #define PASSWORD "Password"
 ```
 
+You can found an other environment is Cayenne.
 
 
 
