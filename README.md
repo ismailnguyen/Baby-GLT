@@ -1,38 +1,56 @@
-# This file is a documentation for explain how to use Cayenne
+# Baby-GLT Project.
+This project is a system for count the table soccer goals.
+For display the score we used ubidots.
 
-1. You need to install the Arduino Environment on your computer.
-2. You need to register on Cayenne Website.
-3. Configure this program on your Arduino IDE.
+0. Organisation
+1. Hardware.
+2. Firmware.
+3. Software.
+4. Installation on table soccer.
 
-## For install the Arduino IDE.
-Go to this [webSite](https://www.arduino.cc/en/main/Ssoftware) for install the IDE (you need to choose your platform).
+## Organisation
+Each people have an organisation like this :
+![planning](../img/pics.png) 
 
-### Register in Cayenne Website.
-You need to register in [Cayenne website](https://cayenne.mydevices.com).
+### Hardware.
+We use an ESP8266 : 
+![ESP8266](../img/ESP8266.jpg)
 
-#### You need to change the SSID (box name) and this password and install the component.
-1. Download this Program and change the ssid and the password [here](ESP8266-Projet.ino).
-``` C
-char ssid[] = "your ssid";
-char wifiPassword[] = "your password";
-```
+
+we used this componants :
+![hardware](../img/Fritzing.png)
  
-2. You need to install [MQTT](https://fr.wikipedia.org/wiki/MQTT) packages.
-You need to download the zip content of this [github project](https://github.com/myDevicesIoT/Cayenne-MQTT-ESP8266).
-After you need to load the zip file into your Arduino IDE.
-<pre>
-You need to Click on <b>Include Library</b> after click on <b>Add .ZIP library</b>.
-And add the zip content.
-</pre>
+We have use a LED ,Laser and a sensor for detect the laser light, and img.
+
+We have connect the componants like this : 
+
+![componant](../img/img_comp.jpg)
 
 
-3. Inside the Cayenne website.
-You need to click on *** Cayenne API ***, this API will use the MQTT protocole and you need to change the codes like this exemple : 
+#### Firmware : 
+We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
+
+***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the library for communicate with ubidots and add to the arduino Library.***
+
+You need to add the credentials access to the board.
 ``` C
-char username[] = "71996a50-25fe-11e7-b2af-55ba5adcb0d5"; // MQTT Username
-char password[] = "d49b8e538c18beb1f39c622ea14c713486d6d6f5"; // MQTT Password.
-char clientID[] = "758bb320-25fe-11e7-bc7d-0921ad51511b"; // Client ID.
+#define TOKEN  "fL7bB5nkQJ2NAkZNoaiy3U3Kz2H16V"  // Put here your Ubidots TOKEN
+#define ID_1 "58f8b3af7625423887675651"
+#define ID_2 "58f9c22076254238893ef4c8"// Put your variable ID here
+
 ```
 
-4. You need to compile [this program](ESP8266-Projet.ino)
-After on the Cayenne Webiste you need to see your board.
+You need to configure with your wifi access.
+``` C
+#define WIFISSID "SSID"
+#define PASSWORD "Password"
+```
+
+You can found an other environment is Cayenne.
+
+
+##### Installation on table soccer : 
+We have install the componenent in each part of the goal inside the table soccer like this schema.
+
+![tablesoccer](../img/Tbs.png)
+
