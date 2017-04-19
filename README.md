@@ -54,3 +54,9 @@ We have install the componenent in each part of the goal inside the table soccer
 
 ![tablesoccer](img/Tbs.png)
 
+
+The score interface is like this on the web : 
+![score](img/score.png)
+
+And in the mobile is like this : 
+![score_mobile](img/score_mob.jpg)
