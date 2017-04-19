@@ -1,4 +1,4 @@
-#Baby-GLT Project.
+# Baby-GLT Project.
 This project is a system for count the table soccer goals.
 For display the score we used ubidots.
 
@@ -18,7 +18,7 @@ We use an ESP8266 :
 
 
 we used this componants :
-![hardware](../img/FritzingElement.png)
+![hardware](../img/Fritzing.png)
  
 We have use a LED ,Laser and a sensor for detect the laser light, and img.
 
