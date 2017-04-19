@@ -6,6 +6,7 @@ For display the score we used ubidots.
 1. Hardware.
 2. Firmware.
 3. Software.
+4. Installation on table soccer.
 
 ## Organisation
 Each people have an organisation like this :
@@ -48,5 +49,8 @@ You need to configure with your wifi access.
 You can found an other environment is Cayenne.
 
 
+##### Installation on table soccer : 
+We have install the componenent in each part of the goal inside the table soccer like this schema.
 
+![tablesoccer](..img/Tbs.png)
 
