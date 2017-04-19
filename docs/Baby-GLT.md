@@ -20,7 +20,7 @@ We use an ESP8266 :
 we used this componants :
 ![hardware](../img/Fritzing.png)
  
-We have use a LED ,Laser and a sensor for detect the laser light.
+We have use a LED ,Laser and a sensor for detect the laser light, and img.
 
 We have connect the componants like this : 
 
