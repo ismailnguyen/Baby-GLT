@@ -2,15 +2,19 @@
 This project is a system for count the table soccer goals.
 For display the score we used ubidots.
 
+0. Organisation
 1. Hardware.
 2. Firmware.
 3. Software.
 
+## Organisation
+Each people have an organisation like this :
+![planning](../img/pics.png) 
 
-## Hardware.
+### Hardware.
 
 
-### Firmware : 
+#### Firmware : 
 We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
 
 ***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the zip file and add to the arduino Library.***
