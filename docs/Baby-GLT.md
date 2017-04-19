@@ -14,10 +14,17 @@ Each people have an organisation like this :
 ### Hardware.
 We use an ESP8266 : 
 ![ESP8266](../img/ESP8266.jpg)
+
+
 we used this componants :
 ![hardware](../img/Fritzing.png)
  
 We have use a LED ,Laser and a sensor for detect the laser light.
+
+We have connect the componants like this : 
+
+![componant](../img/img_comp.jpg)
+
 
 #### Firmware : 
 We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
