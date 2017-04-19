@@ -10,25 +10,25 @@ For display the score we used ubidots.
 
 ## Organisation
 Each people have an organisation like this :
-![planning](../img/pics.png) 
+![planning](img/pics.png) 
 
 ### Hardware.
 We use an ESP8266 : 
-![ESP8266](../img/ESP8266.jpg)
+![ESP8266](img/ESP8266.jpg)
 
 
 we used this componants :
-![hardware](../img/Fritzing.png)
+![hardware](img/Fritzing.png)
  
 We have use a LED ,Laser and a sensor for detect the laser light, and img.
 
 We have connect the componants like this : 
 
-![componant](../img/img_comp.jpg)
+![componant](img/img_comp.jpg)
 
 
 #### Firmware : 
-We used this [program](../babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
+We used this [program](img/babyfoot.ino) for communicate with [ubidots](http://www.ubidots.com) board.
 
 ***You need to [download](https://ubidots.com/docs/devices/ESP8266-arduino.html#ubidots-esp8266) the library for communicate with ubidots and add to the arduino Library.***
 
@@ -52,5 +52,5 @@ You can found an other environment is Cayenne.
 ##### Installation on table soccer : 
 We have install the componenent in each part of the goal inside the table soccer like this schema.
 
-![tablesoccer](../img/Tbs.png)
+![tablesoccer](img/Tbs.png)
 
