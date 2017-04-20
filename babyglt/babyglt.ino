@@ -7,7 +7,7 @@
   This example code is in the public domain.
 */
 
-const int L1 = D4; // broche 2 du micro-contrôleur se nomme maintenant : L1
+const int L1 = D4; // broche D4 du micro-contrôleur se nomme maintenant : L1
 int scoreJ1 = 0;
 
 // the setup routine runs once when you press reset:
@@ -31,7 +31,7 @@ void loop() {
     scoreJ1++;
     printf("score du joueur 1 : %d \n", scoreJ1);
     digitalWrite(L1, HIGH); //allumer L1
-    delay(5000); // attendre 1 milliseconde
+    delay(5000); // attendre 5 seconde
     digitalWrite(L1, LOW); // Eteindre L1
   }
   /*****Gestion bouton******/
