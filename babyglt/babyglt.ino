@@ -25,7 +25,7 @@ void loop() {
   // read the input on analog pin 0:
   int sensorValue = analogRead(A0);
   // print out the value you read:
-  Serial.printf("%d 0 500 \n", sensorValue);
+  Serial.printf("%d 0 700 \n", sensorValue);
   delay(1);        // delay in between reads for stability
   if (sensorValue < 150) {
     scoreJ1++;
